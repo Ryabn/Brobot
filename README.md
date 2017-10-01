@@ -1,8 +1,8 @@
 # Quadruped
 
 A Four Legged robot in the making from scratch.
-<br>Currently uses:
 <br>Find video of working leg in images file
+<br>Currently uses:
 <ul>
   <li>3 Servos (MG995's & MG996's)
   <li>Arduino Uno (will try to switch to nano)
