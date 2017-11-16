@@ -11,6 +11,7 @@ A Four Legged robot in the making from scratch.
   <li>Wooden Box
 </ul>
 
+I've spent about 20USD and around 5 hours and have one programmed leg down. I'm currently waiting for my other parts (servos, servo arm/brackets) to come in so I can finish the other 3 legs. After that, I'm planning on maybe adding 2 other legs as 6 legs would allow me to program more fluid movements as well as a more responsive body. It's currently programmed to only work on flat surfaces (I used flat values for movement rather than variables), I plan on adding pressure sensors to the legs to ensure stability on the system when it crawls over uneven surfaces. 
 
 Steps: 
 <img src="images/one.jpg"/>
