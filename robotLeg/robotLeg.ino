@@ -3,8 +3,8 @@
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
-#define SERVOMIN  350
-#define SERVOMAX  625
+#define SERVOROTAMT 300
+
 
 void setup() {
   Serial.begin(9600);
@@ -15,29 +15,40 @@ void setup() {
 
   yield();
 }
-
+void leg1Walk(){
+    pwm.setPWM(0, 0, 230);
+    delay(1000);
+    for (uint16_t pulselen = 0; pulselen < SERVOROTAMT; pulselen++) {
+        pwm.setPWM(0, 0, (pulselen + 230));
+        
+    }
+    pwm.setPWM(0, 0, 530);
+    
+    pwm.setPWM(1, 0, 530);
+    delay(1000);
+    for (uint16_t pulselen = SERVOROTAMT; pulselen > 0; pulselen--) {
+        pwm.setPWM(0, 0, (pulselen + 230));
+        
+    }
+    delay(1000);
+}
+/*
+//moves arm down to touch the ground when moving
 void startWalking(){
-    pwm.setPWM(2, 0, 160);
-    pwm.setPWM(3, 0, 420);
+    pwm.setPWM(0, 0, 230);
+    pwm.setPWM(4, 0, 650);
+    pwm.setPWM(8, 0, 550);
+    //pwm.setPWM(12, 0, 300);
     //420 lul
 }
-void stopWalking(){
-    pwm.setPWM(2, 0, 250);
-    pwm.setPWM(3, 0, 550);
-}
-void loop() {
-    startWalking();
-    delay(500);
-    for (uint16_t pulselen = SERVOMAX; pulselen > SERVOMIN; pulselen--) {
-        pwm.setPWM(1, 0, pulselen);
-    }
-    delay(500);
-    stopWalking();
-    delay(500);
-    for (uint16_t pulselen = SERVOMIN; pulselen < SERVOMAX; pulselen++) {
-        pwm.setPWM(1, 0, pulselen);
 
-    }
-    delay(500);
+//moves arm up to not touch the ground and resets to moving forward position
+void stopWalking(){
+    pwm.setPWM(8, 0, 250);
+    pwm.setPWM(12, 0, 600);
+}
+*/
+void loop() {
+    leg1Walk();
     
 }
