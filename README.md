@@ -5,7 +5,7 @@ A Four Legged robot in the making from scratch.
 
 
 Steps: 
-![](./images/six.jpg = 200x150)
+![](./images/six.jpg =200x150)
 <img src="images/six.jpg"/>
 <img src="images/seven.jpg"/>
 <img src="images/eight.jpg"/>
