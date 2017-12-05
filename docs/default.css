@@ -44,7 +44,7 @@ p{
 }
 .introImage{
     margin-top: 20px;
-    background-image: url(../images/seven.jpg);
+    background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/eight.jpg?raw=true);
     background-size: cover;
     background-position: center;
     height: 90%;
@@ -64,7 +64,7 @@ p{
 /*small laptops and tablets*/
 @media (min-width: 768px){
     .bgimage{
-        background-image: url(../images/eight.jpg);
+        background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/seven.jpg?raw=true);
         border-bottom: solid 10px #380099;
     }
     .heroTitle{
