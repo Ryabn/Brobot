@@ -19,7 +19,7 @@ p{
   flex-wrap: wrap;
 }
 .bgimage{
-    background-image: url(../images/eight.jpg);
+    background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/eight.jpg?raw=true);
     background-position: center;
     background-size: cover;
     height: 65vh;
@@ -42,7 +42,7 @@ p{
 }
 .introImage{
     margin-top: 20px;
-    background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/eight.jpg?raw=true);
+    background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/seven.jpg?raw=true);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -62,8 +62,6 @@ p{
 /*small laptops and tablets*/
 @media (min-width: 768px){
     .bgimage{
-        background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/seven.jpg?raw=true);
-        border-bottom: solid 10px #380099;
         height: 88vh;
     }
     h1{
