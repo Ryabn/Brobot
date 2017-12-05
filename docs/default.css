@@ -1,3 +1,90 @@
 body{
-    background-color: black;
+    font-family: 'Dosis', sans-serif;
+    background-color: #84ff9f;
+    color: #420084;
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    font-size: 48px;
+}
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bgimage{
+    background-image: url(../images/eight.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 88vh;
+    border-bottom: solid 10px #380099;
+}
+.heroTitle{
+    
+    font-size: 200px;
+    font-weight: bold;
+    text-shadow: 0 0 80px #9634ed, -5px -5px white;
+    padding-left: 30vw;
+    padding-top: 45vh;
+    
+}
+.title{
+    padding-top: 50px;
+}
+.intro{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    text-align: justify;
+}
+.introImage{
+    margin-top: 20px;
+    background-image: url(../images/seven.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+    border-radius: 10px;
+}
+.github{
+    border-top: 10px solid #380099;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4c14ad;
+}
+
+/*small laptops and tablets*/
+@media (min-width: 768px){
+    .bgimage{
+        background-image: url(../images/eight.jpg);
+        border-bottom: solid 10px #380099;
+    }
+    .heroTitle{
+        font-size: 200px;
+        padding-left: 20vw;
+        padding-top: 40vh;
+    }
+    
+}
+
+/*laptops and desktops*/
+@media (min-width: 992px){
+    .bgimage{
+        border-bottom: solid 10px #380099;
+    }
+    .heroTitle{
+        font-size: 200px;
+        padding-left: 30vw;
+        padding-top: 45vh;
+
+    }
+
 }
