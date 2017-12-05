@@ -22,7 +22,7 @@ p{
     background-image: url(../images/eight.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 65vh;
     border-bottom: solid 10px #380099;
 }
 .heroTitle{
@@ -66,6 +66,7 @@ p{
     .bgimage{
         background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/seven.jpg?raw=true);
         border-bottom: solid 10px #380099;
+        height: 88vh;
     }
     .heroTitle{
         font-size: 200px;
