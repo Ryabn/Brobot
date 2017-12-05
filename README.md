@@ -3,7 +3,9 @@
 I wanted to make a robot... so I made one.
 
 Future Goals(because it's not done!):
+<br>
 -add sensors to allow for uneven surface walking
+<br>
 -develop a "mind" for it so it can be voice activated, as well as intelligent
 
 <br>
