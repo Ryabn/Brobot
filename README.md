@@ -19,7 +19,7 @@ Meet
 <br>
 I switched out the body using clear acrylic boxes as they were easier to work with, see through, and so much more sexier.
 
-<img src="images/seven.jpg" width="40%" clear="both"/>
-<img src="images/eight.jpg" width="40%" clear="both"/>
+<img src="images/seven.jpg" width="100%"/>
+<img src="images/eight.jpg" width="100%"/>
 
 
