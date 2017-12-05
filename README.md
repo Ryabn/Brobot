@@ -14,12 +14,12 @@ Meet
 <br>
 
 <img src="images/five.jpg" width="100%"/>
-<img src="images/six.jpg" width="600"/>
+<img src="images/six.jpg" width="100%"/>
 
 <br>
 I switched out the body using clear acrylic boxes as they were easier to work with, see through, and so much more sexier.
 
 <img src="images/seven.jpg" width="50%"/>
-<img src="images/eight.jpg" width="500"/>
+<img src="images/eight.jpg" width="50%"/>
 
 
