@@ -22,7 +22,7 @@ p{
     background-image: url(../images/eight.jpg);
     background-position: center;
     background-size: cover;
-    height: 88vh;
+    height: 50vh;
     border-bottom: solid 10px #380099;
 }
 .heroTitle{
@@ -60,7 +60,7 @@ p{
     padding-bottom: 15px;
     background-color: #4c14ad;
 }
-
+/*=========================================MEDIA QUERIES===============================================*/
 /*small laptops and tablets*/
 @media (min-width: 768px){
     .bgimage{
@@ -74,7 +74,7 @@ p{
     }
     
 }
-
+/*=========================================MEDIA QUERIES===============================================*/
 /*laptops and desktops*/
 @media (min-width: 992px){
     .bgimage{
