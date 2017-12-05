@@ -4,7 +4,7 @@ body{
     color: #420084;
 }
 h1{
-    font-size: 72px;
+    font-size: 48px;
 }
 h2{
     font-weight: bold;
@@ -12,7 +12,7 @@ h2{
     text-align: center;
 }
 p{
-    font-size: 48px;
+    font-size: 26px;
 }
 .row.display-flex {
   display: flex;
@@ -26,20 +26,18 @@ p{
     border-bottom: solid 10px #380099;
 }
 .heroTitle{
-    
-    font-size: 200px;
+    font-size: 70px;
     font-weight: bold;
-    text-shadow: 0 0 80px #9634ed, -5px -5px white;
+    text-shadow: 0 0 80px #9634ed, -2px -2px white;
     padding-left: 30vw;
-    padding-top: 45vh;
-    
+    padding-top: 35vh;
 }
 .title{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .intro{
     font-family: 'Nunito', sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     text-align: justify;
 }
 .introImage{
@@ -47,7 +45,7 @@ p{
     background-image: url(https://github.com/Ryabn/Brobot/blob/master/images/eight.jpg?raw=true);
     background-size: cover;
     background-position: center;
-    height: 90%;
+    height: 300px;
     border-radius: 10px;
 }
 .github{
@@ -68,24 +66,37 @@ p{
         border-bottom: solid 10px #380099;
         height: 88vh;
     }
+    h1{
+        font-size: 72px;
+    }
+    p{
+        font-size: 48px;
+    }
     .heroTitle{
+        text-shadow: 0 0 80px #9634ed, -5px -5px white;
         font-size: 200px;
         padding-left: 20vw;
         padding-top: 40vh;
     }
-    
+    .title{
+    padding-top: 50px;
+    }
+    .intro{
+        font-size: 28px;
+    }
 }
 /*=========================================MEDIA QUERIES===============================================*/
 /*laptops and desktops*/
 @media (min-width: 992px){
-    .bgimage{
-        border-bottom: solid 10px #380099;
-    }
     .heroTitle{
         font-size: 200px;
         padding-left: 30vw;
         padding-top: 45vh;
 
+    }
+    .introImage{
+        margin-top: 20px;
+        height: 90%;
     }
 
 }
