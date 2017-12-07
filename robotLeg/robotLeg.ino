@@ -16,6 +16,7 @@ void setup() {
   yield();
 }
 void leg1Walk(){
+    /* leg move forward/back 0 
     pwm.setPWM(0, 0, 230);
     delay(1000);
     for (uint16_t pulselen = 0; pulselen < SERVOROTAMT; pulselen++) {
@@ -31,6 +32,14 @@ void leg1Walk(){
         
     }
     delay(1000);
+
+    */
+
+}
+void leg2Walk(){
+  
+    pwm.setPWM(4, 0, 650);
+    pwm.setPWM(5, 0, 150);
 }
 /*
 //moves arm down to touch the ground when moving
@@ -49,6 +58,9 @@ void stopWalking(){
 }
 */
 void loop() {
-    leg1Walk();
+    leg2Walk();
     
 }
+
+
+
