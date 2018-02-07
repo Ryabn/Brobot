@@ -24,4 +24,3 @@ I switched out the body using clear acrylic boxes as they were easier to work wi
 <img src="images/seven.jpg" width="100%"/>
 <img src="images/eight.jpg" width="100%"/>
 
-
